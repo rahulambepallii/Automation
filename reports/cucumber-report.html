@@ -1,0 +1,679 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "validate-practicetestautomationlogin-page;login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 557447200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the practicetestautomationlogin page",
+            "match": {
+              "location": "Steps\\LoginSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2706035899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I login with username \"student\" and password \"Password123\"",
+            "match": {
+              "location": "Steps\\LoginSteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 944226499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should be verify success message 'Logged In Successfully'",
+            "match": {
+              "location": "Steps\\LoginSteps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29203300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 318700300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Positive",
+            "line": 8
+          },
+          {
+            "name": "@ValidLogin",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-practicetestautomationlogin-page;login,-logout-and-login-again",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Login, logout and login again",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 586774400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the practicetestautomationlogin page",
+            "match": {
+              "location": "Steps\\LoginSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2505666899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I login with username \"student\" and password \"Password123\"",
+            "match": {
+              "location": "Steps\\LoginSteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1002471999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should be verify success message 'Logged In Successfully'",
+            "match": {
+              "location": "Steps\\LoginSteps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60914699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I click the Log out button",
+            "match": {
+              "location": "Steps\\LoginSteps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 553180899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I login with username \"student\" and password \"Password123\"",
+            "match": {
+              "location": "Steps\\LoginSteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 391984500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should be verify success message 'Logged In Successfully'",
+            "match": {
+              "location": "Steps\\LoginSteps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105267200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 532601399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Positive",
+            "line": 13
+          },
+          {
+            "name": "@Relogin",
+            "line": 13
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-practicetestautomationlogin-page;login-persists-after-refresh",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Login persists after refresh",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 587062599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the practicetestautomationlogin page",
+            "match": {
+              "location": "Steps\\LoginSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2210235699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I login with username \"student\" and password \"Password123\"",
+            "match": {
+              "location": "Steps\\LoginSteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 888379600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should be verify success message 'Logged In Successfully'",
+            "match": {
+              "location": "Steps\\LoginSteps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40050700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I refresh the page",
+            "match": {
+              "location": "Steps\\LoginSteps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1031882799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should be verify success message 'Logged In Successfully'",
+            "match": {
+              "location": "Steps\\LoginSteps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45684199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 527423199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Positive",
+            "line": 21
+          },
+          {
+            "name": "@RefreshAfterLogin",
+            "line": 21
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-practicetestautomationlogin-page;login-with-leading/trailing-spaces-in-credentials",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Login with leading/trailing spaces in credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 615252799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the practicetestautomationlogin page",
+            "match": {
+              "location": "Steps\\LoginSteps.js:5"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2548995399,
+              "error_message": "page.waitForSelector: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('input#username') to be visible\u001b[22m\n\n    at LoginPage.waitForLoginForm (C:\\automation\\Rahul\\Automation\\Pages\\LoginPage.js:87:21)\n    at World.<anonymous> (C:\\automation\\Rahul\\Automation\\Steps\\LoginSteps.js:8:24)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I login with username \" student \" and password \" Password123 \"",
+            "match": {
+              "location": "Steps\\LoginSteps.js:21"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I should be verify success message 'Logged In Successfully'",
+            "match": {
+              "location": "Steps\\LoginSteps.js:49"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 449322199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Positive",
+            "line": 28
+          },
+          {
+            "name": "@SpacesInCredentials",
+            "line": 28
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-practicetestautomationlogin-page;login-with-invalid-username",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Login with invalid username",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 561179099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the practicetestautomationlogin page",
+            "match": {
+              "location": "Steps\\LoginSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2243346199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I login with username \"incorrectUser\" and password \"Password123\"",
+            "match": {
+              "location": "Steps\\LoginSteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 348740200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I should see \"Your username is invalid!\"",
+            "match": {
+              "location": "Steps\\LoginSteps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9880300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 264616899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative",
+            "line": 34
+          },
+          {
+            "name": "@InvalidUsername",
+            "line": 34
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-practicetestautomationlogin-page;login-with-invalid-password",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "Login with invalid password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 612322199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the practicetestautomationlogin page",
+            "match": {
+              "location": "Steps\\LoginSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2192768899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "I login with username \"student\" and password \"incorrectPassword\"",
+            "match": {
+              "location": "Steps\\LoginSteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 364711400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "I should see \"Your password is invalid!\"",
+            "match": {
+              "location": "Steps\\LoginSteps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25195599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 376368200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative",
+            "line": 38
+          },
+          {
+            "name": "@InvalidPassword",
+            "line": 38
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-practicetestautomationlogin-page;submit-with-empty-username",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Submit with empty username",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 506529099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the practicetestautomationlogin page",
+            "match": {
+              "location": "Steps\\LoginSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2520175999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "I login with username \"\" and password \"Password123\"",
+            "match": {
+              "location": "Steps\\LoginSteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 368270100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "I should see \"Your username is invalid!\"",
+            "match": {
+              "location": "Steps\\LoginSteps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34725700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 318321800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative",
+            "line": 42
+          },
+          {
+            "name": "@EmptyUsername",
+            "line": 42
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-practicetestautomationlogin-page;submit-with-empty-password",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Submit with empty password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 516977199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the practicetestautomationlogin page",
+            "match": {
+              "location": "Steps\\LoginSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2457155900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I login with username \"student\" and password \"\"",
+            "match": {
+              "location": "Steps\\LoginSteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 386117999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "I should see \"Your password is invalid!\"",
+            "match": {
+              "location": "Steps\\LoginSteps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19190300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 312314200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative",
+            "line": 46
+          },
+          {
+            "name": "@EmptyPassword",
+            "line": 46
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "validate-practicetestautomationlogin-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Validate practicetestautomationlogin page",
+    "tags": [],
+    "uri": "Features\\Login.feature"
+  }
+]

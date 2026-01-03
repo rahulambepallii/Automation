@@ -1,0 +1,19 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.git": true
+  },
+  "search.exclude": {
+    "**/node_modules": true
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+
+  // Cucumber (Gherkin) extension helpers
+  "cucumberautocomplete.steps": [
+    "Steps/*.js"
+  ],
+  "cucumberautocomplete.syncfeatures": "Features",
+  "cucumberautocomplete.strictGherkinCompletion": true
+}
